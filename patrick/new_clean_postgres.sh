@@ -18,6 +18,7 @@ if [ "$USER" = "ubuntu" ]; then
 elif [ "$USER" = "patrickwang" ]; then
     # the basics
     rm -rf ~/pgdata
+    mkdir ~/pgdata
     cd ~/pgdata
     initdb
     cd -
